@@ -6,7 +6,7 @@ echo ================================
 echo        C:\ BACKUP STARTING
 echo ================================
 
-robocopy C:\ "F:\Server PC\Root" /MIR /Z /W:1 /R:2 /XA:SH /A-:SH /XJ ^
+robocopy C:\ "F:\Server PC\Root" /MIR /Z /W:1 /R:2 /XJ /A+:-H ^
 /XD "Windows" "$Recycle.Bin" "System Volume Information" "Users\Mark\AppData"
 
 echo.
