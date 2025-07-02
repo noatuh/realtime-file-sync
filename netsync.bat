@@ -28,6 +28,12 @@ if exist "\\rtxpc\b\" (
 )
 
 echo.
-echo [INFO] Waiting 24 hours before next run...
-timeout /t 604800 >nul
+echo [INFO] Waiting one week before next run...
+timeout /t 86400 >nul
+timeout /t 86400 >nul
+timeout /t 86400 >nul
+timeout /t 86400 >nul
+timeout /t 86400 >nul
+timeout /t 86400 >nul
+timeout /t 86400 >nul
 goto loop
